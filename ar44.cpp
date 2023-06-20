@@ -7,7 +7,7 @@ int main() {
     char a[80];
     cin >> a;
 
-    //比較字串
+    //判斷字串迴文
     int size = strlen(a);
     int flag = 1;
     for (int i = 0; i < size / 2; i++) {
@@ -18,5 +18,4 @@ int main() {
         }
     }
     if (flag)  cout << "YES" << endl;
-    return 0;
 }

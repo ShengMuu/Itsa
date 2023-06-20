@@ -8,7 +8,7 @@ int main(){
         cin >> arr[i];
     }
 
-    //bubble sort
+    //bubble sort (小 -> 大)
     for(int i  = 0; i < nums; i++){
         for(int j = 0; j < nums-i-1; j++){
             //swap

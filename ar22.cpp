@@ -10,7 +10,7 @@ int main() {
     char a[200];
     cin.getline(a, 200);
 
-    //計算字母出現次數
+    //計算字母出現次數 (大小寫算同一個)
     int i, temp;
     for (i = 0; a[i] != '\0'; i++) { 
 

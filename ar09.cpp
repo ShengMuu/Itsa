@@ -3,7 +3,7 @@
 using namespace std;
 
 void swap(char *a, char *b);
-void bubble_sort(char arr[], int size, int order);
+void sorting(char arr[], int size, int order);
 
 int main()
 {
@@ -31,10 +31,10 @@ int main()
     }
 
     // 小 -> 大
-    bubble_sort(arr, size, 1);
+    sorting(arr, size, 1);
     int min = atoi(arr);
     // 大 -> 小
-    bubble_sort(arr, size, 2);
+    sorting(arr, size, 2);
     int max = atoi(arr);
 
     cout << max - min << endl;
@@ -48,7 +48,7 @@ void swap(char *a, char *b)
     *b = temp;
 }
 
-void bubble_sort(char arr[], int size, int order)
+void sorting(char arr[], int size, int order)
 {
     for (int i = size - 1; i >= 0; i--)
     {

@@ -7,6 +7,7 @@ int main() {
 
     string input;
     while (getline(cin, input)) {
+        
         istringstream iss(input);
         vector<int> numbers;
 
